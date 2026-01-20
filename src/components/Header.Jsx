@@ -9,10 +9,10 @@ export default function Header() {
 
                 <nav className="nav">
                     <ul>
-                        <li>Hem</li>
-                        <li>Om</li>
-                        <li>Referenser</li>
-                        <li>Kontakt</li>
+                        <li><a href="#">Hem</a></li>
+                        <li><a href="#">Om</a></li>
+                        <li><a href="#">Referenser</a></li>
+                        <li><a href="#">Kontakt</a></li>
                     </ul>
                 </nav>
 
