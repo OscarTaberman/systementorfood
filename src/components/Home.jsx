@@ -1,13 +1,18 @@
+import backgroundImage from "../assets/about-background-image.png";
+
 export default function Home() {
     return (
-        <body>
-            <div className="hero">
-                <h1>Ristoranto</h1>
+        <div className="hero">
+            <div className="background-image"></div>
+            <div className="hero-text">
+                <h1>Din favoritmat levererad hem till din dörr!</h1>
+                <h2>Oscar, Mike och Osman gör allt preparationsarbete så du enkelt kan förbereda god, prisvärd & nyttig mat.</h2>
+                <button>Beställ nu</button>
             </div>
-            <div>
-                <h2>Welcome to Ristoranto!</h2>
-                <p>Your favorite place for delicious food.</p>
-            </div>
-        </body>
+            <img src={backgroundImage} 
+                alt="Salad bowl" 
+                className="salad" />
+            
+        </div>
     );
 };
