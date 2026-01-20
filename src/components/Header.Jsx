@@ -1,10 +1,28 @@
 export default function Header() {
     return (
         <header className="header">
-            <nav className="nav">
-                <h1></h1>
+            <div className="header-container">
 
-            </nav>
+                <div className="logo">
+                    <span>Ristorante Mike al dente</span>
+                </div>
+
+                <nav className="nav">
+                    <ul>
+                        <li>Hem</li>
+                        <li>Om</li>
+                        <li>Referenser</li>
+                        <li>Kontakt</li>
+                    </ul>
+                </nav>
+
+                <div className="actions">
+                    <span className="cart">🛒</span>
+                    <button className="cta">Boka Nu</button>
+
+                </div>
+
+            </div>
         </header>
     )
 }
