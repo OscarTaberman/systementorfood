@@ -1,12 +1,14 @@
 import backgroundImage from "../assets/about-background-image.png";
+import backgroundBanner from "../assets/home-banner-background.png";
 
 export default function Home() {
     return (
+    <div>    
+        <img src={backgroundBanner} className="background-banner"></img>
         <div className="hero">
-            <div className="background-image"></div>
             <div className="hero-text">
                 <h1>Din favoritmat levererad hem till din dörr!</h1>
-                <h2>Oscar, Mike och Osman gör allt preparationsarbete så du enkelt kan förbereda god, prisvärd & nyttig mat.</h2>
+                <h2>Oscar, Mike och Osman gör absolut inget preparationsarbete så du enkelt kan förbereda äcklig, dyr & onyttig skräpmat.</h2>
                 <button>Beställ nu</button>
             </div>
             <img src={backgroundImage} 
@@ -14,5 +16,6 @@ export default function Home() {
                 className="salad" />
             
         </div>
+    </div>
     );
 };
