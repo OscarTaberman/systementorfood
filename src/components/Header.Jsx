@@ -17,7 +17,7 @@ export default function Header() {
                 </nav>
 
                 <div className="actions">
-                    <span className="cart">🛒</span>
+                    <span className="cart"><i class="fa-solid fa-cart-shopping"></i></span>
                     <button className="cta">Boka Nu</button>
 
                 </div>

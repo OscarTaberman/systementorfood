@@ -75,3 +75,89 @@ body {
   height: 100%;
   opacity: 0.7;
 }
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+/* header stylingen  */
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Loggan */
+.logo {
+  font-weight: bold;
+  color: #1b544d;
+  z-index: 10;
+}
+
+/* navigation */
+.nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  cursor: pointer;
+  color: #222;
+  transition: color 0.4s ease;
+}
+.nav li:hover {
+  transform: scale(1.09);
+}
+.nav li:hover a {
+    color: #a44b85;
+
+}
+.nav{
+  z-index: 10;
+
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+.actions {
+  z-index: 10;
+}
+
+
+/* actions */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.actions:hover {
+  transform: scale(1.09);
+}
+.cta {
+  background: #f4a261;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.cart{
+ z-index: 10;
+ font-size: 30px;
+}
+.cart:hover{
+  cursor: pointer;
+  transform: scale(1.09);
+}
