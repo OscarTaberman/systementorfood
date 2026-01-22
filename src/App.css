@@ -9,6 +9,8 @@ body {
   background-color: #ffffff;
 }
 
+
+/* Hero section styling */
 .hero .background-image {
   background-image: url(backgroundImage);
   background-size: cover;
@@ -160,4 +162,90 @@ body {
 .cart:hover{
   cursor: pointer;
   transform: scale(1.09);
+}
+
+/* Contact section styling */
+.contact-section {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #454545;
+  margin: 0;
+}
+.contact-section h3 {
+  font-size: 1.5rem;
+  color: #454545;
+  margin: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-form ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #454545;
+  width: 10rem;
+}
+
+.contact-form input, textarea {
+  padding: 1rem;
+  width: 30rem;
+  border-radius: 30px;
+  border: 2px solid #f4a261;
+  background-color: #fff;
+  color: #454545;
+  font-weight: bold;
+}
+.contact-form input:focus, textarea:focus {
+  outline: none;
+  border-color: #e76f51;
+}
+.contact-form input:invalid {
+  background-color: #ffffff;
+  color: #db0000;
+}
+.contact-form input:-webkit-autofill {
+  -webkit-text-fill-color: #454545;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.contact-form textarea {
+  height: 10rem;
+}
+
+.contact-form button {
+  width: 200px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ffb547;
+  border-radius: 35px;
+  border: none;
+}
+.contact-form button:hover {
+  background-color: #ffaa007f;
+  cursor: pointer;
 }

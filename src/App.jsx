@@ -3,6 +3,7 @@ import './App.css'
 import './components/Home.jsx'
 import Home from './components/Home.jsx'
 import Header from './components/Header.jsx'
+import Contact from './components/Contact.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <>
       <Header/>
       <Home />
+      <Contact />
     </>
   )
 }
