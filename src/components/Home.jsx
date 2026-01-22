@@ -8,7 +8,7 @@ export default function Home() {
         <div className="hero">
             <div className="hero-text">
                 <h1>Din favoritmat levererad hem till din dörr!</h1>
-                <h2>Oscar, Mike och Osman gör absolut inget preparationsarbete så du enkelt kan förbereda äcklig, dyr & onyttig skräpmat.</h2>
+                <h2>Mike, Oscar och Osman gör absolut inget preparationsarbete så du enkelt kan förbereda äcklig, dyr & onyttig skräpmat.</h2>
                 <button>Beställ nu</button>
             </div>
             <img src={backgroundImage} 
