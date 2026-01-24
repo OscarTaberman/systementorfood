@@ -4,7 +4,7 @@ export default function Contact() {
         <section className="contact-section" id="contact">
             <h2>Kontakta oss om du har några frågor!</h2>
             <h3>...vi kanske svarar.</h3>
-            <form className="contact-form">
+            <form className="contact-form" action="https://formshow.systementor.se/" target="_blank" method="POST">
                 <ul>
                     <label htmlFor="email">E-post:</label>
                     <input type="email" id="email" name="email" required />
