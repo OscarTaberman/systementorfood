@@ -4,6 +4,7 @@ import './components/Home.jsx'
 import Home from './components/Home.jsx'
 import Header from './components/Header.jsx'
 import Contact from './components/Contact.jsx'
+import Reference from './components/Reference.jsx'
 import Footer from './components/Footer.jsx'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Header/>
       <Home />
+      <Reference />
       <Contact />
       <Footer />
     </>
