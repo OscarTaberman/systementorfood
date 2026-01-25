@@ -11,8 +11,8 @@ export default function Header() {
                     <ul>
                         <li><a href="#">Hem</a></li>
                         <li><a href="#">Om</a></li>
-                        <li><a href="#reference">Referenser</a></li>
                         <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="#reference">Referenser</a></li>
                     </ul>
                 </nav>
 

@@ -14,8 +14,8 @@ function App() {
     <>
       <Header/>
       <Home />
-      <Reference />
       <Contact />
+      <Reference />
       <Footer />
     </>
   )
